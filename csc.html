@@ -1,0 +1,234 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lil'Learn</title>
+<link rel="icon" href="https://docs.google.com/uc?id=1T2q0QcgrB5lJ6wqd-jYW4HAWr5YeXasA">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!--Bootsrap 4 CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Fontawesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--Custom styles-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+
+    <main>
+        <img class="bg_image" src="https://docs.google.com/uc?id=1dTBwpAhXFdT-WBps5BdPiAonPLwUNcNZ" alt="...">
+        <section id="nav-title">
+
+
+            <section class="navbarr">
+                <nav class="navbar navbar-expand-md  navbar-light  ">
+                    <a class="navclass navbar-brand" href="">Lil'Learn</a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+
+                    </div>
+                </nav>
+            </section>
+        </section>
+
+
+        <section class="loginpage">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12"></div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="container">
+                        <div class="d-flex justify-content-center h-100">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h3>Change Location</h3>
+
+                                </div>
+                                <div class="card-body">
+                                    <form action="/change_loc" method="POST">
+
+                                        <div class="input-group form-group">
+
+                                            <!-- <input type="email" class="form-control" name="username" required placeholder="Email" /> -->
+                                            <select  id="country"  class="cc custom-select form-control" name="country" style="height: 38px; margin-bottom:10px;" required>
+                                                <option value="" >Country</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group form-group">
+
+                                            <!-- <input type="email" class="form-control" name="username" required placeholder="Email" /> -->
+                                            <select  id="state"  class=" custom-select form-control" name="state" style="height: 38px; margin-bottom:10px;" required>
+                                                <option value="" >State</option>
+                                            </select>
+                                        </div>
+                                        <div class="input-group form-group">
+
+                                            <!-- <input type="email" class="form-control" name="username" required placeholder="Email" /> -->
+                                            <select  id="city"  class="cc custom-select form-control" name="city" style="height: 38px; margin-bottom:10px;" required>
+                                                <option value="" >City</option>
+                                            </select>
+
+                                        </div>
+                                        <div class="input-group form-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            </div>
+                                            <input type="email" class="form-control" name="username" required placeholder="Email" />
+                                        </div>
+                                        <div class="input-group form-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                                            </div>
+                                            <input type="password" class="form-control" name="password" required placeholder="Password" />
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="submit" value="Save" style="width:150px;" class="btn float-right login_btn" />
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <div class=" footer ">
+            <i class="footer-image fab fa-instagram fa-2x "></i>
+            <i class="footer-image fab fa-facebook fa-2x "></i>
+            <i class="footer-image fab fa-twitter fa-2x "></i>
+            <i class="footer-image fas fa-envelope fa-2x "></i>
+            <p>© Copyright 2021 Lil'learn</p>
+        </div>
+    </main>
+    <script>
+        let auth_token;
+        $(document).ready( function(){
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/getaccesstoken',
+                success:function(data){
+                    auth_token=data.auth_token;
+                    getCountry(data.auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Accept": "application/json",
+                    "api-token": "Y4iA6bE_Bep9tMA6Xq1Fjkem-h0I6yQ1Twbu0FplS4oDCHpHunYXVPOFM_OB5_wWKqo",
+                    "user-email": "balkar81199@gmail.com"
+                }
+
+            })
+            $('#country').change(function(){
+                getState();
+            });
+            $('#state').change(function(){
+                getCity();
+            });
+            console.log('hello');
+        })
+        function getCountry(auth_token){
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/countries/',
+                success:function(data){
+                    data.forEach(element => {
+                       $('#country').append( '<option value="'+element.country_name+ '">'+element.country_name+'</option>' );
+                    });
+                    // getState(auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+
+        function getState(){
+            let country_name=$('#country').val();
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/states/'+country_name,
+                success:function(data){
+                    $('#state').empty();
+                    data.forEach(element=>{
+                        $('#state').append( '<option value="'+element.state_name+ '">'+element.state_name+'</option>' );
+                    })
+                    // getCity(auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+
+
+        function getCity(){
+            let state_name=$('#state').val();
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/cities/'+state_name,
+                success:function(data){
+                    $('#city').empty();
+                    data.forEach(element=>{
+                        $('#city').append( '<option value="'+element.city_name+ '">'+element.city_name+'</option>' );
+                    })
+                   console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+    </script>
+</body>
+
+</html>

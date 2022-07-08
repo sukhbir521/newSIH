@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta name="viewport" content="width=1000"> -->
+    <meta charset="UTF-8">
+
+    <script src="https://kit.fontawesome.com/433f1b34e2.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <link rel="icon" href="https://docs.google.com/uc?id=1T2q0QcgrB5lJ6wqd-jYW4HAWr5YeXasA">
+    <title>Lil'learn Sign Up</title>
+  <link rel="stylesheet" href="css/retry.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <style>
+    html{
+      height: 100%;
+    }
+        body {
+
+            overflow-x: hidden;
+            height: 100%;
+
+            /* background-image : linear-gradient(white,#87edcf);
+            background-repeat: no-repeat; */
+
+
+        }
+        /* .bg {
+            opacity: 0.8;
+            background-image: url("https://image.freepik.com/free-vector/green-tones-gradient-background_23-2148374436.jpg");
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+        } */
+
+
+.header{
+    background-color: black;
+z-index: 1;
+    height: 100px;
+  width: 100%;
+}
+a{
+  text-decoration:none;
+}
+.create:hover{
+  background-color:#8aebc1;
+}
+.wrapper{
+    background-color:black;
+
+position: absolute;
+top: 20px;
+  margin: auto;
+
+  margin-top: 35px;
+  margin-left:10px;
+  width: 800px;
+  background-color: white;
+  min-height: 20px;
+  border: 2px solid #0ca87b;
+  left: 20%;
+  box-shadow: 5px 5px #0ca87b;
+
+
+
+}
+.card{
+  border:1px solid;
+  margin:auto;
+}
+.heading{
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+    padding-left: 200px;
+
+    color: white;
+
+    margin-right: 200px;
+
+}
+.main{
+    margin: auto;
+    width: 100%;
+  box-sizing: border-box;
+  top: 5px;
+  margin-top: 80px;
+  position: relative;
+
+    text-align: center;
+
+    padding: 3% 1% 1%;
+}
+.result{
+    margin: auto;
+    width: 100%;
+
+  box-sizing: border-box;
+  top: 5px;
+    background-color: #ccc;
+    text-align: center;
+    padding: 3% 10% 5%;
+}
+.inside-tweet{
+  margin: auto;
+    width: 100%;
+  box-sizing: border-box;
+  top: 5px;
+    background-color: #ccc;
+    text-align: center;
+    padding: 3% 10% 5%;
+
+
+}
+
+.footer {
+    text-align: center;
+    padding-top: 3%;
+    position: relative;
+    bottom:0;
+    margin-left: 0;
+
+}
+
+.footer-image {
+    margin-right: 10px;
+}
+
+.last:hover{
+color:red;
+}
+.footer-image{
+margin : 5px 15px;
+}
+.face:hover{
+color:#3d799c;
+}
+.in:hover{
+color: #f21f82;
+}
+.tw:hover{
+color: #229ff2;
+}
+.mail:hover{
+color: red;
+}
+
+
+.home{
+    color: black;
+    text-decoration: none;
+}
+/* .doit:hover{
+  transition:
+} */
+.home:hover{
+    color: white;
+}
+.probz{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 200px;
+
+    display: inline-block;
+}
+.topmost{
+  width:250px;
+  margin-left:100px;
+margin-top: 9px;
+height: 80px;
+position: absolute;
+
+
+}
+.bg_image {
+  width: 100vw;
+   min-height: 100vh;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+}
+
+    </style>
+</head>
+
+<body>
+  <main>
+  <img src="css/back.jpg" class="bg_image" alt="">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark ">
+
+
+    <a style="margin-left:65px; font-size:40px;" class="navclass navbar-brand " href="/"><img class="logo1" src="https://i.imgur.com/nmkZOyJ.png" alt="">Lil'Learn</a>
+    <button class="navbar-toggler" style="margin-right: 10%;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" style="margin-left:10%;" id="navbarCollapse">
+
+      <ul class="navbar-nav ms-auto" style=" margin-right:10%;"  >
+
+
+
+
+        <li class="nav-item" >
+          <a style="  color: white; "  class="nav-link" href="/">Home</a>
+        </li>
+
+
+</ul>
+    </div>
+  </nav>
+
+
+    <div class="row">
+
+      <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top:20% positon:relative;">
+
+            <div id="main" class="main">
+
+                <div class="container" style="width: 700px; ">
+
+
+
+                    <div class="card bg-light " style=" opacity:0.85 ;">
+                    <article class="card-body mx-auto" style="max-width: 500px;">
+                        <h3 class="card-title mt-3 text-center" style="font-weight: bold;">Create Account</h3>
+                        <p class="text-center" >Get started with your free account</p>
+                        <p >
+                            <a href="/auth/google" >  <img style="height:51px;width:160px;"src="https://i.imgur.com/g36oszo.png" alt=""> </a>
+                            <a href="/auth/facebook" >  <img style="height:83px;width:160px;" src="https://i.imgur.com/1WJZhKP.png" alt=""> </a>
+                        </p>
+                        <p class="divider-text">
+                            <span class="bg-light">OR</span>
+                        </p>
+                        <form action="/signup" onsubmit=" if(password.value!==confirm_password.value){
+                          alert('Passwords Don`t Match');
+                          event.preventDefault();
+                        }" method="POST">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                             <input type="text" style="height: 32px;"name="fname" id="fname" class="cc form-control"  required placeholder="First Name" />
+                             <span class="input-group-btn" style="width:20px;"></span>
+                             <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                             </div>
+                             <input type="text"style="height: 32px;  margin-bottom:10px;" name="lname" id="lname"class="cc form-control" required placeholder="Last Name" />
+                        </div>
+
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fas fa-birthday-cake"></i> </span>
+                             </div>
+                             <input style="height: 32px;" type="date" class="cc form-control" name="dob" id="dob"  required  placeholder="DD/MM/YYYY" />
+                             <span class="input-group-btn" style="width:20px;"></span>
+                             <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-male"></i> </span>
+                             </div>
+                             <!-- <input style="height: 32px; margin-bottom:10px;"type="text" name="gender" id="gender" class="cc form-control" required placeholder="Gender" /> -->
+                             <select class="cc custom-select" style="max-width: 190px; height:32px;margin-bottom:10px;" name="gender" id="gender" required>
+                                 <option value="Male"selected="">Male</option>
+                                 <option value="Female">Female</option>
+                                 <option value="Prefer not to say">Prefer not to say</option>
+
+
+
+                             </select>
+                        </div>
+
+
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                            </div>
+                            <select class="cc custom-select" style="max-width: 120px; height: 32px;">
+                                <option selected="">+91</option>
+
+                            </select>
+                            <input style="height: 32px;  margin-bottom:10px;"type="text"  class="cc form-control" name="cnumber" id="cnumber" required placeholder="Contact Number" />
+                        </div>
+
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                             </div>
+                             <input style="height: 32px;" type="email" name="email" id="email" class="cc form-control" required placeholder="Email" />
+                             <span class="input-group-btn" style="width:20px;"></span>
+                             <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                             </div>
+                             <select  id="country"  class="cc custom-select form-control" name="country" style="height: 32px; margin-bottom:10px; font-size:14px;" required>
+                                <option value="" style="font-size:1px; padding-bottom:400px;" >Country</option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                             </div>
+                             <select  id="state"  class="cc custom-select form-control" name="state" style="height: 32px; margin-bottom:10px; font-size:14px;" required>
+                                <option value="" >State</option>
+                            </select>
+                             <span class="input-group-btn" style="width:20px;"></span>
+                             <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                             </div>
+                             <select  id="city"  class="cc custom-select form-control" name="city" style="height: 32px; margin-bottom:10px; font-size:14px; positon:relative; " required>
+                                <option value="" >City</option>
+                            </select>
+
+                        </div>
+
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+
+                            <input style="height: 32px;"  type="password" name="password" id="pass" class="cc form-control" required placeholder="Password" />
+
+                            <span class="input-group-btn" style="width:20px;"></span>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <script type="text/javascript">
+                              var password=document.getElementById("pass");
+                              var confirm_password=getElementById("confirm_password");
+                          </script>
+
+                            <input style="height: 32px; margin-bottom:10px;" id="confirm_password"  type="password" class="form-control cc" required placeholder="Re Enter Password" />
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <button type="submit" name="signup_submi" value="Sign Up" style="background-color:#0ca87b;" class="btn create btn-primary btn-block"> Create Account  </button>
+                        </div>
+                        <p style="margin-top:10px;"class="text-center">Have an account? <a style="color:#0ca87b;"href="/login">Log In</a> </p>
+                    </form>
+                    </article>
+                    </div>
+
+                    </div>
+
+
+            </div>
+
+
+        </div>
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12" style="margin-top:80px; position: relative;">
+        <img src="css/start.png" style="width:300px; display: block;margin-left:15%;margin-right:10%;"alt="">
+        <img src="css/kaka1.png" style="width:285px; margin:auto;display: block;"  alt="">
+
+      </div>
+
+    </div>
+
+
+
+</main>
+
+    <!-- <div class="">
+      <img src="https://docs.google.com/uc?id=1h3GAVClNLMyQA-XFxuXXyKBlXWszCFRB" style="margin-top:10px; margin-left:250px;width:200px;" alt="">
+    </div>
+
+
+    <img src="https://docs.google.com/uc?id=14F5zeZePGiq5vp7bdCkJC_LUk96eS8B0" style="width:330px; margin-left:60px;margin-top:1px;" alt=""> -->
+
+
+    <script>
+        let auth_token;
+        $(document).ready( function(){
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/getaccesstoken',
+                success:function(data){
+                    auth_token=data.auth_token;
+                    getCountry(data.auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Accept": "application/json",
+                    "api-token": "Y4iA6bE_Bep9tMA6Xq1Fjkem-h0I6yQ1Twbu0FplS4oDCHpHunYXVPOFM_OB5_wWKqo",
+                    "user-email": "balkar81199@gmail.com"
+                }
+
+            })
+            $('#country').change(function(){
+                getState();
+            });
+            $('#state').change(function(){
+                getCity();
+            });
+            console.log('hello');
+        })
+        function getCountry(auth_token){
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/countries/',
+                success:function(data){
+                    data.forEach(element => {
+                       $('#country').append( '<option value="'+element.country_name+ '">'+element.country_name+'</option>' );
+                    });
+                    // getState(auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+
+        function getState(){
+            let country_name=$('#country').val();
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/states/'+country_name,
+                success:function(data){
+                    $('#state').empty();
+                    data.forEach(element=>{
+                        $('#state').append( '<option value="'+element.state_name+ '">'+element.state_name+'</option>' );
+                    })
+                    // getCity(auth_token);
+                    console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+
+
+        function getCity(){
+            let state_name=$('#state').val();
+            $.ajax({
+                type:'get',
+                url:'https://www.universal-tutorial.com/api/cities/'+state_name,
+                success:function(data){
+                    $('#city').empty();
+                    data.forEach(element=>{
+                        $('#city').append( '<option value="'+element.city_name+ '">'+element.city_name+'</option>' );
+                    })
+                   console.log('ajax');
+                },
+                error:function(error){
+                    console.log(error);
+                },
+                headers:{
+                    "Authorization": "Bearer " +auth_token,
+                    "Accept": "application/json"
+                }
+
+            })
+        }
+    </script>
+
+
+</body>
+
+</html>
